@@ -1,0 +1,31 @@
+{
+  "name": "lightcrack",
+  "version": "1.0.0",
+  "description": "Fast MD5 Cracker",
+  "main": "cracker.js",
+  "scripts": {
+    "start": "node cracker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreXLin85/LightCrack.git"
+  },
+  "keywords": [
+    "lightcrack",
+    "md5",
+    "cracker",
+    "node",
+    "hash"
+  ],
+  "author": "GreXLin85",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreXLin85/LightCrack/issues"
+  },
+  "homepage": "https://github.com/GreXLin85/LightCrack#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "md5": "^2.2.1",
+    "yargs": "^15.1.0"
+  }
+}
